@@ -123,8 +123,4 @@ CREATE TABLE users (
     email VARCHAR(100) NOT NULL CHECK (email LIKE '%@%')
 );
 
-insert into users values(1,'admin','admin123','admin','approved','Aparna','kovaparna@gmail.com');
-select * from route11;
-select * from bus;
-use bus;
-select * from depot1;
+insert into users values(1,'ADMIN','ADMINPASSWORD','admin','approved','NAME','EMAIL');
